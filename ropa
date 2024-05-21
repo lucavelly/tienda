@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Chic - Tienda de Ropa Urbana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Urban Chic</h1>
+        <nav>
+            <ul>
+                <li><a href="#catalog">Catálogo</a></li>
+                <li><a href="#offers">Ofertas</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#cart">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="catalog">
+        <h2>Catálogo de Productos</h2>
+        <div class="product" data-id="1">
+            <img src="img/product1.jpg" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$19.99</p>
+            <button class="add-to-cart">Añadir al Carrito</button>
+        </div>
+        <div class="product" data-id="2">
+            <img src="img/product2.jpg" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>$29.99</p>
+            <button class="add-to-cart">Añadir al Carrito</button>
+        </div>
+        <!-- Más productos -->
+    </section>
+
+    <section id="offers">
+        <h2>Ofertas Especiales</h2>
+        <p>¡Descuentos increíbles en productos seleccionados!</p>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Urban Chic nació con la misión de proporcionar moda urbana de alta calidad a precios accesibles.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Correo: contacto@urbanchic.com</p>
+        <p>Teléfono: +123 456 7890</p>
+    </section>
+
+    <section id="cart">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="total">0.00</span></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
